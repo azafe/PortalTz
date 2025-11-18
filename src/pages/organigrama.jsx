@@ -5,7 +5,7 @@ function Organigrama() {
         <h2>Organigrama de Transporte Zafe</h2>
         <p className="section-intro">
           Estructura formal de trabajo de Transporte Zafe: una Junta Directiva y tres áreas principales que
-          operan en paralelo.
+          operan en paralelo
         </p>
 
         <div className="org-card board-clean">
