@@ -5,6 +5,9 @@ import Valores from "./pages/Valores";
 import Proposito from "./pages/Proposito";
 import Organigrama from "./pages/Organigrama";
 import ManualChofer from "./pages/ManualChofer";
+import FlotaEquipos from "./pages/FlotaEquipos";
+
+
 
 function App() {
   return (
@@ -15,6 +18,7 @@ function App() {
         <Route path="/proposito" element={<Proposito />} />
         <Route path="/organigrama" element={<Organigrama />} />
         <Route path="/manual-chofer" element={<ManualChofer />} />
+          <Route path="/flota-equipos" element={<FlotaEquipos />} /> 
       </Routes>
     </Layout>
   );

@@ -532,3 +532,50 @@ main {
   font-size: 0.85rem;
   color: #777;
 }
+
+
+/* ---------------------- */
+/* FlotaEquipos                 */
+/* ---------------------- */
+
+.unit-card {
+  background: #ffffff;
+  border-radius: 1.4rem;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f1f5f9;
+  overflow: hidden;
+  padding: 0; /* ahora el padding va en el body */
+}
+
+.unit-photo {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.unit-card-body {
+  padding: 1.4rem 1.6rem;
+}
+
+.unit-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.9rem;
+}
+
+.unit-card h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.unit-list {
+  padding-left: 1rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+}
