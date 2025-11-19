@@ -20,7 +20,7 @@ function NavBar() {
       <NavLink to="/manual-chofer" className={getClass}>
         Manual del Chofer
       </NavLink>
-      <NavLink to="/flota-equipos">
+      <NavLink to="/flota-equipos" className={getClass}>
   Flota y Equipos
 </NavLink>
     </nav>
