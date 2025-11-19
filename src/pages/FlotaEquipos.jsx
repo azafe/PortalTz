@@ -3,7 +3,7 @@ import atego from "/images/Atego1726.jpg";
 import vw17280 from "/images/VW17280.jpg";
 import acoplado from "/images/Acoplado-Canero.jpg";
 import iveco17280 from "/images/Iveco17280.jpg";
-
+import batea from "/images/batea.jpg"
 
 function FlotaEquipos() {
   return (
@@ -125,7 +125,7 @@ function FlotaEquipos() {
 
           {/* Batea */}
           <article className="unit-card">
-            <img src={acoplado} alt="Batea" className="unit-photo" />
+            <img src={batea} alt="Batea" className="unit-photo" />
             <div className="unit-card-body">
               <div className="unit-card-header">
                 <h3>Batea 27 m³</h3>
